@@ -1,6 +1,16 @@
 const express = require('express');
 const router = express.Router();
 const Product = require('../models/Product');
+const products = require('../data/sampleProductData.js');
+
+router.post('/seed', async (req, res) => {
+    try {
+        await Product.insertMany(products);
+        res.status(201).json({ message: 'Sample products seeded successfully' });
+    } catch (error) {
+        res.status(400).json({ message: 'Error seeding products', error: error.message });
+    }
+});
 
 router.post('/', async (req, res) => {
     try {
