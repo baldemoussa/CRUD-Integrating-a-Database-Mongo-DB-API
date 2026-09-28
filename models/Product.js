@@ -15,7 +15,8 @@ const productSchema = new Schema({
     category: { type: String, required: true },
     inStock: { type: Boolean, default: true },
     tags: { type: [String], default: [] },
-    createdAt: { type: Date, default: Date.now }
+}, {
+    timestamps: true
 });
 
 const Product = mongoose.model("Product", productSchema);
