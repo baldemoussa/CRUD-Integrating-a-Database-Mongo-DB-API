@@ -5,8 +5,7 @@ const products = [
     price: 199.99,
     category: 'Electronics',
     inStock: true,
-    tags: ['audio', 'bluetooth', 'wireless', 'headphones'],
-    createdAt: new Date()
+    tags: ['audio', 'bluetooth', 'wireless', 'headphones']
   },
   {
     name: 'Ergonomic Mesh Office Chair',
@@ -14,8 +13,7 @@ const products = [
     price: 249.5,
     category: 'Furniture',
     inStock: true,
-    tags: ['office', 'furniture', 'ergonomic'],
-    createdAt: new Date()
+    tags: ['office', 'furniture', 'ergonomic']
   },
   {
     name: 'Stainless Steel Water Bottle',
@@ -23,8 +21,7 @@ const products = [
     price: 29.99,
     category: 'Fitness & Outdoors',
     inStock: true,
-    tags: ['fitness', 'water bottle', 'outdoors'],
-    createdAt: new Date()
+    tags: ['fitness', 'water bottle', 'outdoors']
   },
   {
     name: 'Mechanical Gaming Keyboard',
@@ -32,8 +29,7 @@ const products = [
     price: 89.95,
     category: 'Electronics',
     inStock: false,
-    tags: ['gaming', 'keyboard', 'pc', 'rgb'],
-    createdAt: new Date()
+    tags: ['gaming', 'keyboard', 'pc', 'rgb']
   },
   {
     name: 'Organic Whole Bean Coffee',
@@ -41,8 +37,7 @@ const products = [
     price: 16.49,
     category: 'Groceries',
     inStock: true,
-    tags: ['coffee', 'organic', 'beverage'],
-    createdAt: new Date()
+    tags: ['coffee', 'organic', 'beverage']
   },
   {
     name: 'Smart Fitness Watch',
@@ -50,8 +45,7 @@ const products = [
     price: 149,
     category: 'Electronics',
     inStock: true,
-    tags: ['smartwatch', 'fitness', 'wearables', 'tech'],
-    createdAt: new Date()
+    tags: ['smartwatch', 'fitness', 'wearables', 'tech']
   },
   {
     name: 'Non-Stick Ceramic Frying Pan',
@@ -59,8 +53,7 @@ const products = [
     price: 39.99,
     category: 'Kitchenware',
     inStock: false,
-    tags: ['kitchen', 'cookware', 'pan'],
-    createdAt: new Date()
+    tags: ['kitchen', 'cookware', 'pan']
   },
   {
     name: 'Waterproof Backpack',
@@ -68,8 +61,7 @@ const products = [
     price: 68,
     category: 'Travel',
     inStock: true,
-    tags: ['backpack', 'travel', 'waterproof', 'bags'],
-    createdAt: new Date()
+    tags: ['backpack', 'travel', 'waterproof', 'bags']
   },
   {
     name: 'Aromatherapy Essential Oil Diffuser',
@@ -77,8 +69,7 @@ const products = [
     price: 24.99,
     category: 'Home Decor',
     inStock: true,
-    tags: ['home', 'wellness', 'diffuser'],
-    createdAt: new Date()
+    tags: ['home', 'wellness', 'diffuser']
   },
   {
     name: 'Resistance Bands Set',
@@ -86,8 +77,7 @@ const products = [
     price: 19.95,
     category: 'Fitness & Outdoors',
     inStock: true,
-    tags: ['fitness', 'workout', 'gym'],
-    createdAt: new Date()
+    tags: ['fitness', 'workout', 'gym']
   }
 ];
 
