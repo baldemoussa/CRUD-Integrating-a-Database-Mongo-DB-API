@@ -1,6 +1,6 @@
 # SBA 13: Integrating a Database
 
-## By Mamadou Moussa Balde
+## By [Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
 
 This is an Express and Mongoose API for products stored in MongoDB. It does not serve an HTML page. The server reads `PORT` and `MONGO_URI` from the environment. This run listened at http://localhost:3000 and printed "Connected successfully to MongoDB Atlas!"
 
