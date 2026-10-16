@@ -1,4 +1,4 @@
-# SBA 13: Integrating a Database
+# Integrating a Database
 
 An Express and Mongoose API for products stored in MongoDB. It does not serve an HTML page.
 
